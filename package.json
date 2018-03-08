@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "test": "mocha ./spec",
-    "lint": "eslint ./"
+    "start": "node changeCalculator.js"
   },
   "devDependencies": {
     "chai": "^1.8.1",
