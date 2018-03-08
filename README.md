@@ -1,3 +1,7 @@
+## Dockerising a simple node app
+This is a very simple command-line Node package designed to demonstrate th euse of Docker for node apps. It is based on a Kata exercise used at Northcoders https://northcoders.com/.
+
+
 ## Change Assistant
 
 The challenge is to implement a function that calculates the coins you would use to give a customer their change in a shop. The function takes one arguments, which is the amount of change needed, in pence. The function should always return an object.
