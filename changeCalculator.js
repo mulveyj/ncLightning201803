@@ -13,6 +13,10 @@ var changeCalculator = function (pence) {
   } 
 };
 
+process.argv.array.forEach(element => {
+  console.log(changeCalculator(element))
+});
+
 if ( typeof module !== 'undefined' ) {
   module.exports = {changeCalculator};
 }
