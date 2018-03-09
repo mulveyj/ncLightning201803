@@ -13,9 +13,7 @@ var changeCalculator = function (pence) {
   } 
 };
 
-process.argv.array.forEach(element => {
-  console.log(changeCalculator(element))
-});
+process.argv.forEach((val, index) => {if (index > 1) console.log(changeCalculator(+`${val}`))});
 
 if ( typeof module !== 'undefined' ) {
   module.exports = {changeCalculator};
