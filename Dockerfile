@@ -9,4 +9,6 @@ RUN npm install
 
 COPY . .
 
+CMD ["npm", "test"]
+
 ENTRYPOINT ["node", "changeCalculator.js"]
