@@ -13,14 +13,6 @@ var changeCalculator = function (pence) {
   } 
 };
 
-var printChangeAmts = function(change) {
-  console.log(change.toString())
-}
-
-const amounts = [537, 641, 788, 22, 7, 1048]
-
-amounts.forEach(printChangeAmts)
-
 if ( typeof module !== 'undefined' ) {
   module.exports = {changeCalculator};
 }
